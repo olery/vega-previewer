@@ -44,6 +44,9 @@
 
             let payload        = JSON.parse(event.data);
             let input_filename = document.getElementById('filename');
+            let json_container = document.getElementById('json-container');
+
+            json_container.innerText = JSON.stringify(payload.content, null, 4);
 
             NProgress.set(0.5);
 

@@ -29,4 +29,13 @@ body {
 
 #vega-container svg {
     border: 1px dashed #ccc;
+    margin-bottom: 20px;
+}
+
+pre {
+    border: 1px solid #e1e1e1;
+    height: 400px;
+    font-size: 12px;
+    font-family: monospace;
+    padding: 5px;
 }
