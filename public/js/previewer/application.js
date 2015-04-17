@@ -71,6 +71,8 @@
         let input_server   = document.getElementById('server');
         let input_filename = document.getElementById('filename');
 
+        input_server.value = `ws://${window.location.hostname}:9001`;
+
         // Reconnect whenever the server address is changed.
         input_server.addEventListener('change', function() {
             NProgress.start();
