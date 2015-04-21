@@ -27,6 +27,10 @@ body {
     padding: 10px;
 }
 
+#vega-container {
+    overflow: scroll;
+}
+
 #vega-container svg {
     border: 1px dashed #ccc;
     margin-bottom: 20px;
